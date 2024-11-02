@@ -1,0 +1,20 @@
+/* Container styles */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Flexbox row class */
+.row {
+    display: flex; /* Set row class to use flexbox */
+}
+
+/* Column styles */
+[class*='col-'] {
+    /* Removed float: left; */
+    padding: 10px; /* Example padding */
+    /* Add any other necessary styles here */
+}
+
+/* Other existing styles */
+/* Add additional CSS rules as needed */
