@@ -1,0 +1,20 @@
+/* Grid ============================= */
+
+.col-1-3 {
+    width: calc((100% / 3) - 2rem);
+}
+
+.col-1-2 {
+    width: calc((100% / 2) - 2rem);
+}
+
+[class*='col-'] {
+    padding: 0; /* Removed the padding declaration */
+    margin: 1rem; /* Set margin to 1rem */
+}
+
+ul.row {
+    margin: -1rem; /* Replaced the current margin with -1rem */
+}
+
+/* Other existing styles... */
