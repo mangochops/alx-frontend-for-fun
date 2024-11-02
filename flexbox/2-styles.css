@@ -1,0 +1,51 @@
+/* Container styles */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Flexbox row class */
+.row {
+    display: flex; /* Set row class to use flexbox */
+}
+
+/* Column styles */
+[class*='col-'] {
+    padding: 10px; /* Example padding */
+    /* Add any other necessary styles here */
+}
+
+/* Section styles for specific classes */
+.section-services {
+    /* Styles specific to services section */
+}
+
+.section-works {
+    /* Styles specific to works section */
+}
+
+.section-about-us {
+    /* Styles specific to about section */
+}
+
+.section-latest-news {
+    /* Styles specific to latest news section */
+}
+
+/* Section Latest news ============================= */
+.section-latest-news .row {
+    flex-direction: row-reverse; /* Reverse the order of items in Latest News section */
+}
+
+.section-testimonial {
+    /* Styles specific to testimonial section */
+}
+
+.section-contact {
+    /* Styles specific to contact section */
+}
+
+/* Other existing styles */
+/* Add additional CSS rules as needed */
+
+/*** 4. CARD ***/
